@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to left, #4c1d95, #881337);
+  color: #4c1d95;
+}
+
+/* Configurando o navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+#logo {
+  padding: 3rem;
+  cursor: pointer;
+  background: linear-gradient(to right, #4c1d95, #881337);
+  color: #fff;
+  border-radius: 100%;
+  margin: 3rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+#logo #wolf {
+  margin-left: 1rem;
+}
+#navBar {
+  display: flex;
+  gap: 6rem;
+  padding: 3rem;
+  list-style: none;
+}
+
+#navBar li {
+  cursor: pointer;
+  padding: 1.2rem;
+  color: #ec4899;
+}
+
+/* Explicação do evento */
+
+#explicacaoEvento {
+  margin: auto;
+  color: #fff;
+}
+.clip-path {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: #fff;
+  color: #ec4899;
+  padding: 0 10rem;
+}
+#explicacaoTitulo {
+  font-size: 2.5rem;
+  margin-left: 40rem;
+  line-height: 3;
+  display: inline-block;
+}
+
+.textoExplicacao {
+  margin-top: 3rem;
+}
+
+.textoExplicacao > p {
+  font-size: 1.5rem;
+  width: 55rem;
+  margin-left: 30rem;
+  margin-bottom: 1.5rem;
+  margin-right: 10rem;
+}
+
+.alinhar {
+  display: flex;
+}
+
+#imagemGameOver {
+  border-radius: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+}
+
+/* Dia do evento section */
+#dia--evento {
+  margin-top: 300px;
+  width: 100%;
+  height: 300px;
+  background-image: url(Src/images/alexey-savchenko-k4Akpt5-Sfk-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
